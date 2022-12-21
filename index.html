@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Store front for Bethany's Pie Shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bethany's Pie Shop</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <img src="images/logo.png"
+                        width="150"
+                        height="47"
+                        alt="Bethany's Pie Shop company logo">
+                </li>
+                <li><a href="pies.html">Pies</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>Welcome to Bethany's Pie Shop</h1>
+
+            <picture>
+                <source media="(orientation: landscape)" srcset="images/bethany-700.jpg" />
+                <img src="images/bethanysmall.jpg" alt="Bethany of Bethany's Pie Shop" />
+            </picture>
+
+            <h2>Our history</h2>
+            <p>
+                For many years, Bethany has been baking the most delicious pies at her home.
+            </p>
+            <p>
+                In 2013, we opened our first store in Brussels (Belgium) in a cosy little street 
+                near the Grand Market. People from all over the world fell in love with the soft 
+                cakes, heavenly cheese cakes, spicy apple pies... The store became a success in no time.
+            </p>
+            <p>
+                In 2015, no less than 100 pies were sold every day and Bethany's Pie Shop moved into a larger
+                building. After receiving many requests, it became clear that our next step was making it possible to order
+                pies from the comfort of your own home and from anywhere in the world. You are now looking at the
+                result of this: our very own online store, making it possible to order Bethany's delicious pies whenever you feel like
+                it!
+            </p>
+            <div id="calculator">
+                <h2>Order Calculator</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Apple</td>
+                            <td>$12.00</td>
+                            <td><input type="number" id="apple" min="0"></td>
+                        </tr>
+                        <tr>
+                            <td>Cherry</td>
+                            <td>$15.00</td>
+                            <td><input type="number" id="cherry" min="0"></td>
+                        </tr>
+                        <tr>
+                            <td>Strawberry</td>
+                            <td>$18.00</td>
+                            <td><input type="number" id="strawberry" min="0"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Total:</td>
+                            <td id="total-container">$0.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </article>
+        <aside>
+            <div class="logo-container">
+                <img src="images/bethanylogo.png"
+                    alt="Bethany's Pie Shop Logo"
+                    width="120" height="140">
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <address>
+            <h2>Bethany's Pie Shop</h2>
+            <p>Bakery Street 555</p>
+            <p>Brussels, Belgium</p>
+        </address></p>
+        <p>All rights reserved &copy; 2023 Bethany's Pie Shop</p>
+        <p>Contact us via <a href="mailto:info@bethanyspieshop.com">email</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
