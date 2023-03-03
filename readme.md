@@ -10,4 +10,4 @@ If you installed git you can clone the code to your machine, or download a ZIP o
 git clone https://github.com/craigshoemaker/html-css-fundamentals
 ```
 
-- Once the files are on your machine, open the _html-css-fundamentals_ folder in [Visual Studio Code](https://code.visualstudio.com/).
+Once the files are on your machine, open the _html-css-fundamentals_ folder in [Visual Studio Code](https://code.visualstudio.com/).
