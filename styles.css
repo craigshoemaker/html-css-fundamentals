@@ -80,7 +80,7 @@ article {
     width: 100px;
 }
 
-input {
+#calculator input {
     padding: 5px;
     border-radius: 3px;
     border: solid 1px var(--color-medium-gray);
@@ -110,7 +110,7 @@ footer address h2 {
     display: none;
 }
 
-@media (min-width:961px)  {
+@media (min-width:960px)  {
     main {
         display: flex;
         flex-direction: row-reverse;
