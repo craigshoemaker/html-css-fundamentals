@@ -29,9 +29,10 @@ function calculate(box) {
 window.addEventListener('DOMContentLoaded', () => { 
 
     const totalContainer = document.getElementById('total-container');
-    const inputBoxes = document.querySelectorAll('#calculator input');
 
+    const inputBoxes = document.querySelectorAll('#calculator input');
     const quantityBoxes = Array.from(inputBoxes);
+
     quantityBoxes.forEach(box => {
         
         box.addEventListener('change', () => { 
