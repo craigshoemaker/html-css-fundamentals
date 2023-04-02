@@ -31,15 +31,15 @@ window.addEventListener('DOMContentLoaded', () => {
     const totalContainer = document.getElementById('total-container');
 
     const inputBoxes = document.querySelectorAll('#calculator input');
-    
+
     inputBoxes.forEach(box => {
         
         box.addEventListener('change', () => { 
-            totalContainer.innerHTML = calculate(box);
+            totalContainer.textContent = calculate(box);
         });
         
         box.addEventListener('keyup', () => { 
-            totalContainer.innerHTML = calculate(box);
+            totalContainer.textContent = calculate(box);
         });
         
     });
